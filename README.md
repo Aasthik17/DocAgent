@@ -42,8 +42,8 @@ flowchart TD
         Builder -->|OpenXML Styling & Palette| OutputFile[Polished Word Document .docx]
     end
     
-    OutputFile --> Download[GET /download/{doc_id}]
-    OutputFile --> Response[JSON AgentResponse with Plan, Tasks & Metadata]
+    OutputFile --> Download["GET /download/{doc_id}"]
+    OutputFile --> Response["JSON AgentResponse with Plan, Tasks & Metadata"]
 ```
 
 ---
